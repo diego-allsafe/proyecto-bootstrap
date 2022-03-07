@@ -105,15 +105,15 @@
         <form class="row g-3" action="https://formsubmit.co/diego.data.icloud@gmail.com" method="POST">
           <div class="col">
             <label for="inputNombre" class="form-label">Nombre (*)</label>
-            <input type="text" class="form-control" placeholder="Tu nombre..." aria-label="Nombre">
+            <input type="text" name="nombre" class="form-control" placeholder="Tu nombre..." aria-label="Nombre">
           </div>
           <div class="col">
             <label for="inputApellido" class="form-label">Apellido (*)</label>
-            <input type="text" class="form-control" placeholder="Tu apellido..." aria-label="Apellido">
+            <input type="text" name="apellido" class="form-control" placeholder="Tu apellido..." aria-label="Apellido">
           </div>
           <div class="col-12">
             <label for="inputAsunto" class="form-label">Asunto (*)</label>
-            <select id="inputAsunto" class="form-select">
+            <select id="inputAsunto" name="asunto" class="form-select">
               <option selected>Seleccionar tu opcion...</option>
               <option>Solicitud de Turno - Indicame que Servicio necesitas</option>
               <option>Modificacion de Turno</option>
@@ -123,7 +123,7 @@
             </select>
           </div>      
           <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <textarea class="form-control" name="comentario" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">Comentarios...</label>
           </div>
           <div class="col-12">
