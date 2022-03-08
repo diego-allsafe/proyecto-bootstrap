@@ -1,7 +1,7 @@
 {
   "name": "proyecto-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bella, Salon de Estetica y Belleza. Proyecto del Curso de Desarrollo Web en CoderHouse. Comision 24495.",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:css"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/diego-allsafe/proyecto-bootstrap.git"
   },
-  "author": "",
+  "author": "Diego E. Goncalvez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/diego-allsafe/proyecto-bootstrap/issues"
