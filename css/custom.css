@@ -27,6 +27,10 @@ a {
   text-shadow: 1px 1px 1px gray;
 }
 
+.zonas {
+  text-decoration: none;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11164,17 +11168,72 @@ textarea.form-control-lg {
   box-shadow: 4px 4px 4px black;
 }
 
-.input-botonzonasMujer {
+/*Zonas mujer*/
+.body-zonas {
+  background-color: gray;
+}
+
+/* Uso de operaciones (por ejemplo) */
+.main-zonasMujer {
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+}
+
+.section-zonasMujer {
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+}
+
+/*Uso de Mixin*/
+#cards-onezonasMujer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cards-twozonasMujer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-zonasMujer {
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  margin: 20px;
+  overflow: hidden;
+  transition: all 300ms;
+  position: relative;
+}
+.card-zonasMujer h3, .card-zonasMujer .h3 {
+  font-weight: 700px;
+  font-size: 1.5rem;
+}
+
+.card-zonasMujer:hover {
+  transform: scale(1.05);
+}
+
+.img-cardzonasMujer {
+  height: 100%;
   width: 100%;
-  background-color: #81d032;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  -webkit-box-shadow: 4px 4px 4px black;
-  box-shadow: 4px 4px 4px black;
+}
+
+.p-zonasMujer {
+  padding: 0;
+  margin: 5px;
+  text-align: center;
+}
+
+.object-zonasMujer {
+  height: 270px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=custom.css.map */
