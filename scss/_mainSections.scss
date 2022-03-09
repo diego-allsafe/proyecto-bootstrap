@@ -1,0 +1,37 @@
+#fondoVerde {
+  background-image: url("../img/fondoVerde3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#input-boton {
+  background-color: #95e742;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px black;
+}
+
+/*Zonas mujer*/
+
+.body-zonas {
+  background-color: gray;
+}
+
+/* Uso de operaciones (por ejemplo) */
+$ancho: 100px;
+
+.main-zonasMujer {
+  margin: calc($ancho/10);
+  border: calc($ancho/10);
+  padding: calc($ancho/10);
+}
+.section-zonasMujer {
+  margin: calc($ancho/2)-40;
+  border: calc($ancho/2)-40;
+  padding: calc($ancho/2)-40;
+}
