@@ -5,15 +5,6 @@
   width: $width;
 }
 
-#cards-onezonasMujer {
-  display: flex;
-  justify-content: space-evenly;
-}
-#cards-twozonasMujer {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .card-zonasMujer {
   @include sizes(300px, 400px);
   border: 1px solid black;
@@ -27,6 +18,30 @@
   transition: all 300ms;
   position: relative;
 
+  .object-zonasMujer {
+    @include sizes(100%, 270px);
+
+    .img-cardzonasMujer {
+      @include sizes(100%, 100%);
+    }
+  }
+  .p-zonasMujer {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .input-botonzonasMujer {
+    background-color: #81d032;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+  }
+
   h3 {
     font-weight: 700px;
     font-size: 1.5rem;
@@ -34,17 +49,4 @@
 }
 .card-zonasMujer:hover {
   transform: scale(1.05);
-}
-
-.img-cardzonasMujer {
-  @include sizes(100%, 100%);
-}
-.p-zonasMujer {
-  padding: 0;
-  margin: 5px;
-  text-align: center;
-}
-
-.object-zonasMujer {
-  @include sizes(100%, 270px);
 }
