@@ -6,14 +6,12 @@ nav .container {
   align-items: center;
   padding: 20px;
 }
-
-a img {
+nav .container a img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
-
-ul li {
+nav .container ul li {
   display: inline-block;
   list-style: none;
 }
@@ -24,10 +22,6 @@ a {
   text-decoration: none;
   font-size: 110%;
   text-shadow: 1px 1px 1px gray;
-}
-
-.zonas {
-  text-decoration: none;
 }
 
 /*Uso de Mixin*/
@@ -86,19 +80,6 @@ a {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 4px 4px 4px black;
-}
-
-/* Uso de operaciones (por ejemplo) */
-.main-zonasMujer {
-  margin: 10px;
-  border: 10px;
-  padding: 10px;
-}
-
-.section-zonasMujer {
-  margin: 10px;
-  border: 10px;
-  padding: 10px;
 }
 
 /*!
